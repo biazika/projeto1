@@ -27,7 +27,7 @@ header img{
 	height: 350px;
 	background: blue;
 }
-section#noticias{
+section#noticias ul{
      width: 1100px;
      height: auto;
      margin: 0 auto;
@@ -63,6 +63,9 @@ section#noticias h3{
      margin: 25px 0;
      text-transform: uppercase;
 }
+section#noticias ul{
+     display:flex;
+}
 section#noticias ul li a{
      text-align: center;
      font-size: 19px;
@@ -70,4 +73,11 @@ section#noticias ul li a{
      background: red;
      display: block;
      padding: 5px 0;
+}
+section#noticias ul li a: hover{
+     background: blue;
+}
+section#noticias ul li p{
+     text-align: center;
+     margin: 15px 0;
 }
