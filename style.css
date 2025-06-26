@@ -38,12 +38,12 @@ section#noticias ul{
 section#noticias ul li{
      list-style:none;
      width: 350px;
-     height: 350px;
+     height: 450px;
      
 }
 section#noticias img{
      text-align: center;
-     height: 150%;
+     height: 150px;
      width: 100%;
      
     
