@@ -24,6 +24,13 @@ header nav ul li a:hover{
 header img{
 	height: 100%;
 }
+section#banner{
+        height:350px;
+        backgroud: url("https://www.petlife.com.br/blog/assets/post/racas-de-cachorro-grande-conheca-as-17-mais-famosas-64bee56fda771954dd13c342/Cane_Corso.jpg")
+        bacground-repeat:no-repeat;
+        background-position: center center;
+        background-size: 100%;
+}
 #banner{
 	height: 350px;
 	background: blue;
@@ -54,6 +61,7 @@ section#noticias .categoria{
     
      display: block;
      padding: 5px 0;
+
 }
 section#noticias h2{
      font-size: 35px;
